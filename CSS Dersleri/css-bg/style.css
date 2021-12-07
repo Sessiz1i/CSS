@@ -1,0 +1,29 @@
+div#kutukapsa{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    border: 2px solid black;
+    /* çoklu arkaplan resim modifikasyon */
+
+    /*background-image: url(image/1.png),url(image/Screenshot_2.png);*/
+    /*background-repeat: no-repeat, no-repeat;*/
+    /*background-position: top left, bottom right;*/
+
+    /* TÜMLEŞİK ÇOKULU MODİFİKASYON   */
+
+    background: url("./image/1.png") bottom right no-repeat, url("./image/2.png") top left repeat;
+
+}
+/*div.kutu{*/
+/*    font-size: 50px;*/
+/*    font-weight: bold;*/
+/*    width: 450px;*/
+/*    height: 300px;*/
+/*    float: left;*/
+/*    line-height: 300px;*/
+/*    text-align: center;*/
+/*    border: 2px solid red;*/
+/*    box-sizing: border-box;*/
+/*    padding: 5px;*/
+/*}*/
+

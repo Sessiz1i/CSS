@@ -1,0 +1,30 @@
+#kutukapsa {
+    width: 940px;
+    height: 470px;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    /*direction: rtl;                   !* sağdan sola diz *!*/
+    /*flex-direction: row;              !* içeriği soldan sağa yatay hizala *!*/
+    /*flex-direction: row-reverse;      !* içeriği sağdan sola yatay hizala *!*/
+    /*flex-direction: column;           !* içeriği soldan sağa yatay hizala *!*/
+    /*flex-direction: column-reverse;   !* içeriği sağdan sola yatay hizala *!*/
+    flex-direction: row;
+    flex-wrap: wrap; /* içeriği yan yana kapsayıcıdan taşmadan sıralar fazlasını alta sıralar */
+    /*justify-content: center;          !* conten içinde hizalama start,end, center flex directioın dan etkilenir yatay veya dikey *!*/
+    /*justify-content: space-around;    !* conten içinde hizalama *!*/
+    /*justify-content: space-between;   !* conten içinde hizalama *!*/
+    /*justify-content: center; !* conten içinde hizalama *!*/
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+div.kutu {
+    flex: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+   line-height: 200px;
+    margin: 10px;
+
+}

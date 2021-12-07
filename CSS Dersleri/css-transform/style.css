@@ -1,0 +1,48 @@
+#kutuKapsa {
+    width: 940px;
+    height: 470px;
+    border: 10px solid red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background: black;
+    float: left;
+    transition: 1s;
+}
+
+#kutuKapsa:hover .box {
+    opacity: 0.5;
+    /* TRANSLATE   */
+    /*transform: translate(400px, 200px);*/
+    /*transform: translatex(520px);*/
+    /*transform: translatey(270px);*/
+
+    /* SCALE   */
+    /*transform: scale(2.5);*/
+    /*transform: scaleX(2.5);*/
+    /*transform: scaleY(2.5);*/
+
+    /* ROTATE   */
+    /*transform: rotate(45deg);*/
+    /*transform: rotate(-45deg);*/
+    /*transform: rotate3d(2, -1, -1, -0.2turn);*/
+    /* SKEW   */
+    /*transform: skew(10deg,50deg);*/
+    /*transform: skewX(90deg);*/
+    /*transform: skewy(90deg);*/
+    /* ALL IN ONE */
+    /*transform: translate(200px) scale(2);*/
+    transform: rotate(10deg) scale(1.2);
+}

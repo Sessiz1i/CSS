@@ -1,0 +1,7 @@
+.coklukolon{
+    padding: 20px;
+    text-align: justify;
+    column-count: 3;
+    column-rule: 2px solid black;
+    column-gap: 50px;
+}

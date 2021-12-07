@@ -1,0 +1,8 @@
+
+@media (max-width: 600px) {
+    .responsiv1{
+        width: 250px;
+        height: 1000px;
+        background: blue;
+    }
+}
